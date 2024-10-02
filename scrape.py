@@ -29,7 +29,7 @@ def setup_driver():
 
     try:
         driver = webdriver.Chrome(service=service, options=chrome_options)
-        driver.get("https://www.graphicart.ch/shop/de/")
+        driver.get("https://oldschool.runescape.wiki/w/Quests/List")
     except Exception as e:
         print(f"An error occurred: {e}")
         return
